@@ -19,11 +19,11 @@ import (
 
 const (
 	connPort = ":8080"
-	// Number of maximum concurrent
+	// [1 A] Number of maximum concurrent
 	// requests that can be processed.
 	maxRequests = 5
 	requestFile = "request-file.txt"
-	// Amount of time to sleep after
+	// [1 B] Amount of time to sleep after
 	// a request has been processed.
 	sleepTime = time.Second * 2
 	// Time period for each
